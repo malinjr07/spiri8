@@ -1,0 +1,228 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu_part .nav-item a.nav-link {
+        margin-right: 7px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 577px) and (max-width: 767.98px) {
+    header {
+        padding: 6px 0;
+    }
+
+    .py_100 {
+        padding: 50px 0;
+    }
+
+    .pb_100 {
+        padding-bottom: 85px;
+    }
+
+    .banner_overlay {
+        padding: 130px 0px;
+    }
+
+    .img_filter .overlay i,
+    h3,
+    h3 span {
+        font-size: 30px;
+    }
+
+    h6,
+    h6 span {
+        font-size: 12px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.82)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .carousel-control-next {
+        right: -12px;
+    }
+
+    .carousel-control-prev {
+        left: -12px;
+    }
+
+    .banner .carousel-indicators {
+        bottom: -105px;
+    }
+
+    .banner .carousel-indicators li {
+        width: 12px;
+        height: 12px;
+    }
+
+    .menu_part .nav-item a.nav-link {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .about_content ul li {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .testi .common_heading,
+    .clients .common_heading {
+        padding-bottom: 100px;
+    }
+
+    .img_filter .overlay {
+        left: 5%;
+        width: 90%;
+    }
+
+    .about_content a.btn {
+        padding: 12px 10px;
+        font-size: 14px;
+        margin-top: 14px;
+        border-radius: 5px;
+    }
+
+    .common_heading h3::before {
+        bottom: -25px;
+    }
+
+    .common_heading h3::after {
+        bottom: -45px;
+    }
+
+    .team_cont {
+        padding: 0 130px;
+    }
+
+    .smt_40 {
+        margin-top: 40px;
+    }
+
+    .pt_100 {
+        padding-top: 75px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .testi_slider ul.slick-dots {
+        bottom: -45px;
+    }
+    
+    .scrolltop {
+        bottom: 10px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+    header {
+        padding: 6px 0;
+    }
+
+    .py_100 {
+        padding: 50px 0;
+    }
+
+    .pb_100 {
+        padding-bottom: 85px;
+    }
+
+    .banner_overlay {
+        padding: 130px 0px;
+    }
+
+    .img_filter .overlay i,
+    h3,
+    h3 span {
+        font-size: 30px;
+    }
+
+    h6,
+    h6 span {
+        font-size: 12px;
+    }
+
+    .carousel-control-next {
+        right: -12px;
+    }
+
+    .carousel-control-prev {
+        left: -12px;
+    }
+
+    .banner .carousel-indicators {
+        bottom: -105px;
+    }
+
+    .banner .carousel-indicators li {
+        width: 12px;
+        height: 12px;
+    }
+
+    .menu_part .nav-item a.nav-link {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .about_content ul li {
+        font-size: 14px;
+        padding-bottom: 10px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .testi .common_heading,
+    .clients .common_heading {
+        padding-bottom: 100px;
+    }
+
+    .img_filter .overlay {
+        left: 5%;
+        width: 90%;
+    }
+
+    .about_content a.btn {
+        padding: 12px 10px;
+        font-size: 14px;
+        margin-top: 14px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border-radius: 12px;
+    }
+
+    .common_heading h3::before {
+        bottom: -25px;
+    }
+
+    .common_heading h3::after {
+        bottom: -45px;
+    }
+
+    .scrolltop {
+        bottom: 10px;
+    }
+
+    .mt_40 {
+        margin-top: 40px;
+    }
+
+    .pt_100 {
+        padding-top: 75px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .testi_slider ul.slick-dots {
+        bottom: -45px;
+    }
+}
